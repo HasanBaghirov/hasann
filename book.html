@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width: 200px;
+            display: inline-block ;
+        }       
+
+        .lsla{
+            width: 50px;
+        }
+        
+        .asaa{width: 50px;
+
+        }
+    </style>
+</head>
+<body>
+<h1>Lutfen Formu Eksiksiz Doldurunuz.</h1> 
+<hr>
+<br>
+<H2>
+Hesab Bilgileriniz
+</H2>
+<label for="Kullanici Adi">Kullanici Adi: </label>
+<input type="text" id="kullanici_adi" placeholder="kullanici adi giriniz">
+<br>
+<label for="Eposta">Eposta</label>
+<input type="email" name="Eposta" id="Eposta" placeholder="Eposta giriniz">
+<br>
+<label for="Parola">Parola</label>
+<input type="password" name="prl" id="prl" placeholder="parola giriniz">
+<br>
+<h2>Kisisel bilgilerini</h2>
+<label for="adiniz">Adiniz</label>
+<input type="text" name="adiniz" id="adiniz" placeholder="ad giriniz">
+<br>
+<label for="Soyadiniz">Soyadiniz</label>
+<input type="text" name="soy" id="soy" placeholder="soyadi giriniz">
+<br>
+<label for="Sehir">Sehir:</label>
+<select name="Sehir" id="Sehir"> Sehir:
+<option value="seciniz">seciniz</option>
+<option value="masalli">masalli</option>
+<option value="lerik">lerik</option>
+<option value="lenkaran">lenkaran</option>
+</select>
+<br>
+<label for="cinsiyyet">Cinsiyyet</label>
+<input type="radio" name="kadin" id="true" value="erkek">Erkek
+<input type="radio" name="kadin" id="true" value="kadin"> Kadin
+<br>
+
+<form action="/action_page.php">
+    <label  for="Hobileriniz">Hobileriniz</label>
+    <input type="checkbox" id="sinema" name="sinema" >
+    <label class="lsla" for="Sinema"> Sinema</label>
+    <input type="checkbox" id="gezmek" name="Gezmek" >
+    <label class="lsla" for="gezmek"> Gezmek</label>
+    <input type="checkbox" id="gezmek" name="gezmek" >
+    <label for="spor"> spor</label><br><br>
+   <br>
+   
+   
+    <input class="asaa" type="button" value="Kaydet">
+</form>
+</body>
+</html>
