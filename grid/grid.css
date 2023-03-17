@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nawbar{
+    background-color: darkblue;
+    width: 100vw;
+    height: 65px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.cantainer{
+    
+    
+}
+.BOX{
+    color: antiquewhite;
+    
+    text-decoration: none;
+   
+}
+
+.BOX1{
+    padding-left: 120PX;
+    text-decoration: none;
+    padding-top: 30PX;
+    color: white;
+}
+
